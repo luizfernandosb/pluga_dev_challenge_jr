@@ -20,7 +20,7 @@ Requisitos técnicos:
 
 - Escrever testes será um diferencial;
 
-## O que foi feito
+## O que foi feito?
 
 - [x] Tela com listagem de cards e barra de busca  
   - Implementado componente de listagem e componente de busca. A busca filtra o array carregado de pluga.co/ferramentas_search.json (debounce simples para UX).
@@ -44,3 +44,77 @@ Requisitos técnicos:
   - Projeto implementado em React (estrutura de componentes, hooks para estado/comportamento, separação de responsabilidades).
 
 - [x] Testes automatizados (diferencial)  
+
+# 📘 Guia de Execução do Projeto
+
+Este documento apresenta os principais comandos para instalar dependências, executar o ambiente de desenvolvimento, gerar builds, rodar testes e realizar validações de código.
+
+## 📦 Instalação
+
+Instale todas as dependências do projeto:
+
+```bash
+npm install
+```
+
+---
+
+## 🚀 Ambiente de Desenvolvimento
+
+Inicie o servidor de desenvolvimento com Vite:
+
+```bash
+npm run dev
+```
+
+---
+
+## 🏗️ Build de Produção
+
+Gere o build otimizado para produção:
+
+```bash
+npm run build
+```
+
+Gerar um build em modo **desenvolvimento**:
+
+```bash
+npm run build:dev
+```
+
+---
+
+## 🔍 Pré-visualização do Build
+
+Após gerar o build, você pode visualizá-lo localmente:
+
+```bash
+npm run preview
+```
+
+---
+
+## ✅ Lint
+
+Execute o ESLint para verificar problemas no código:
+
+```bash
+npm run lint
+```
+
+---
+
+## 🧪 Testes
+
+Rodar todos os testes com Vitest:
+
+```bash
+npx vitest
+```
+
+Abrir a interface visual do Vitest:
+
+```bash
+npx vitest --ui
+```
