@@ -73,12 +73,6 @@ const Index = () => {
     <div className="min-h-screen bg-background">
       <div className="container mx-auto px-4 py-12">
         <header className="text-center mb-12">
-          {/* <h1 className="text-5xl font-bold mb-4 bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">
-            Ferramentas Pluga
-          </h1>
-          <p className="text-xl text-muted-foreground max-w-2xl mx-auto mb-8">
-            Descubra e integre centenas de ferramentas para automatizar seu trabalho
-          </p> */}
           <div className="flex justify-center">
             <SearchBar value={searchQuery} onChange={handleSearchChange} />
           </div>
