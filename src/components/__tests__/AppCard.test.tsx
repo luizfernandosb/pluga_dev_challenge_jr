@@ -3,7 +3,7 @@ import { render } from '@testing-library/react';
 import { screen } from '@testing-library/dom';
 import '@testing-library/jest-dom';
 import userEvent from '@testing-library/user-event';
-import { AppCard } from '../components/AppCard';
+import { AppCard } from '../AppCard';
 import { App } from '@/types/app';
 
 const mockApp: App = {

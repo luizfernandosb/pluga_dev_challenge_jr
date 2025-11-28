@@ -2,7 +2,7 @@ import { describe, it, expect, vi } from 'vitest';
 import { render } from '@testing-library/react';
 import { screen } from '@testing-library/dom';
 import userEvent from '@testing-library/user-event';
-import { SearchBar } from '../components/SearchBar';
+import { SearchBar } from '../SearchBar';
 
 describe('SearchBar', () => {
   it('renders search input with placeholder', () => {

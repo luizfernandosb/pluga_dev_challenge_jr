@@ -2,7 +2,7 @@ import { describe, it, expect, vi } from 'vitest';
 import { render } from '@testing-library/react';
 import { screen } from '@testing-library/dom';
 import userEvent from '@testing-library/user-event';
-import { Pagination } from '../components/Pagination';
+import { Pagination } from '../Pagination';
 
 describe('Pagination', () => {
   it('does not render when totalPages is 1 or less', () => {
